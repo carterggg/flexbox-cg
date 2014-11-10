@@ -4,6 +4,13 @@
 
 
 /* Base */
+
+
+p {
+	font-size:1.5em;
+	
+	
+}
 /* Layout */
 
 .container {
@@ -12,17 +19,16 @@
   
 }
 
-
-.item {
-  order: <integer>;
-  flex-grow: <number>; /* default 0 */
-}
-
 .flexcontainer-row {
    display: -webkit-flex;
    display: flex;
    -webkit-flex-direction: row;
    flex-direction: row;
+    -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+  
 }
 
 .flexcontainer-column {
@@ -30,6 +36,11 @@
    display: flex;
    -webkit-flex-direction: column;
    flex-direction: column;
+    -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+ 
 }
 
 
