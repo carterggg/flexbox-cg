@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/* Base */
+/* Layout */
+
+.container {
+  display: flex; /* or inline-flex */
+}
+
+
+.item {
+  order: <integer>;
+  flex-grow: <number>; /* default 0 */
+}
+
+
+
+/* Module */
+/* State */
+/* Theme */
