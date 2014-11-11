@@ -5,9 +5,20 @@
 
 /* Base */
 
-
+h3 {
+	text-align:center;
+	
+	
+}
 
 /* Layout */
+
+.wrapper {
+	max-width:60em;
+	position:relative;
+	margin:20px auto;
+	
+}
 
 .row {
 	display:flex;
@@ -31,9 +42,27 @@
 	border:2px solid #333;
 	padding:.25em;
 	flex-grow:1;
+	text-align:center;
+}
+
+.hero {
+	background-color: maroon;
+	height:500;
+}
+
+.hero-2 {
+	background-color: grey;
+	height:150;
 }
 
 
 /* Module */
+
+.feature .feature-pic {
+	width:100%;
+	height:auto;
+	
+	
+}
 /* State */
 /* Theme */
