@@ -77,7 +77,7 @@ a {
 
 .middle-subtitles {
 	background-color: grey;
-	height:2.5em;
+	height:100%;
 	padding:3px;
 }
 
@@ -87,9 +87,13 @@ a {
 	padding-bottom: 10px soid grey;
 	height:2.5em;
 	padding:3px;
-	
 }
 
+.last-subtitles {
+	background-color: #F5F5F5;
+	height:100%;
+	padding:3px;
+}
 
 
 /* Module */
